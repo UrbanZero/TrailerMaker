@@ -6,9 +6,9 @@ export const useAudio = () => {
     const [tension, setTension] = useState(0);
     const [loadingStab, setLoadingStab] = useState(false);
     // SFXs
-    const sfxLowStab: string[] = ["stab1.wav", "braam1.wav", "slam1.wav", "boom1.wav"];
-    const sfxHighStab: string[] = ["alert1.wav", "alert2.wav", "alert3.wav", "signal1.wav", "hit1.wav"];
-    const sfxRise: string[] = ["riser1.wav", "riser2.wav", "riser3.wav", "riser4.wav", "riser5.wav"]
+    const sfxLowStab: string[] = ["stab1.ogg", "braam1.ogg", "slam1.ogg", "boom1.ogg"];
+    const sfxHighStab: string[] = ["alert1.ogg", "alert2.ogg", "alert3.ogg", "signal1.ogg", "hit1.ogg"];
+    const sfxRise: string[] = ["riser1.ogg", "riser2.ogg", "riser3.ogg", "riser4.ogg", "riser5.ogg"]
     // Refs
     const riseGainRef = useRef(new Tone.Gain(1).toDestination());
     const riserPlayerRef = useRef<Tone.Player | undefined>(undefined);
