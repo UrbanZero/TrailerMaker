@@ -12,6 +12,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UrbanZero/TrailerMaker.git"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "framer-motion": "^12.4.7",
